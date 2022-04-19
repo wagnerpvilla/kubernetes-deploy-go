@@ -29,7 +29,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: go-service
-  #namespace: go
+  namespace: default
 spec:
   selector:
     app: goapi
